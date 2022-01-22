@@ -145,3 +145,6 @@ class PartnerLogin(APIView):
                 return Response(resp,status=status.HTTP_200_OK)
         except:
             return Response("Invalid Username and Password please check it.")
+        
+  #bhushan
+        
