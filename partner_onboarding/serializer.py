@@ -32,4 +32,5 @@ class PartnerSerializer(serializers.ModelSerializer):
             elif len(str(data['bank_ifsc'])) < 11:
                 raise serializers.ValidationError("Please enter a valid Banck IFSC number")
         return data
+    #kishor patil comment
         
